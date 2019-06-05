@@ -7,9 +7,7 @@
  */
 
  /* Still to do:
-  *  Refresh rate in CADENCE mode
-  *  reduce p_K_d slightly
-  *  stop cadence going negative
+  *  Reduce refresh rate in CADENCE mode so BLE never overloaded
   */
 
 #include <Arduino.h>
