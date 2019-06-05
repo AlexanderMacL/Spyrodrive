@@ -14,3 +14,14 @@ Spyrodrive Final Build includes 5 files:
 * Spyrodrive.h is the header accompanying Spyrodrive.cpp
 * packetParser.cpp is a modified version of the packet parser by Kevin Townsend of Adafruit industries for managing packets sent by the Adafruit Bluefruit LE Connect app
 * BluefruitConfig.h contains configuration settings for the Feather Bluefruit M0
+
+The build should be compiled for the Adafruit Feather M0 Bluefruit LE, using the Arduino and Adafruit SAMD board libraries, available by configuring the Arduino IDE Board Manager to look for boards here: https://adafruit.github.io/arduino-board-index/package_adafruit_index.json
+
+The system is designed to be compiled alongside the following libraries:
+* Adafruit BluefruitLE nRF51
+* Adafruit FXAS21002C
+* Adafruit FXOS8700
+* Adafruit MCP23008
+* Adafruit Unified Sensor Library
+
+
